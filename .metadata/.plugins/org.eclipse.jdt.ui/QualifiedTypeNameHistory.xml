@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+<fullyQualifiedTypeName name="com.jslightham.plugin1.Main"/>
+<fullyQualifiedTypeName name="com.jslightham.plugin1.commands.HelloCommand"/>
+<fullyQualifiedTypeName name="org.bukkit.command.ConsoleCommandSender"/>
+<fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+</qualifiedTypeNameHistroy>

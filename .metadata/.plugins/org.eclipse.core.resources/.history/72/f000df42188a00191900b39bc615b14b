@@ -1,0 +1,27 @@
+package com.jslightham.plugin1;
+
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.ConsoleCommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
+
+import com.jslightham.plugin1.commands.HelloCommand;
+
+public class Main extends JavaPlugin{
+
+	public int time = 2;
+	private Time time = new Time(this);
+	public static void main(String[] args) {
+		
+
+	}
+	@Override
+	public void onEnable() {
+		
+		this.getCommand("test").setExecutor((CommandExecutor)new HelloCommand());
+	}
+	
+	@Override
+	public void onDisable() {
+		
+	}
+}
