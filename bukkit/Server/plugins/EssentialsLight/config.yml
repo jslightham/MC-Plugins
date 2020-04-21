@@ -1,0 +1,35 @@
+errorMessage: '&3&bEssentialsLight &7&l> &4You are unable to execute this command!'
+permissionMessage: '&3&bEssentialsLight &7&l> &4You do not have permission to run
+  this command!'
+missingArguments: '&3&bEssentialsLight &7&l> &4Command Missing Arguments!'
+playerOffline: '&3&bEssentialsLight &7&l> &4That player is offline!'
+spawnLocation: world:-1291.1635721483929:103.55575265050038:-270.7995241196674:269.28436:25.78262
+FlyCommand:
+  onEnable: '&3&bEssentialsLight &7&l> &aFlying Enabled!'
+  onDisable: '&3&bEssentialsLight &7&l> &aFlying Disabled!'
+TeleportCommand:
+  onTeleport: '&3&bEssentialsLight &7&l> &aTeleporting you'
+GameMode:
+  changedMode: '&3&bEssentialsLight &7&l> &aGameMode Changed'
+  invalidGameMode: '&3&bEssentialsLight &7&l> &4Invalid GameMode'
+Heal:
+  setHealth: '&3&bEssentialsLight &7&l> &aHealed Player'
+Feed:
+  setFood: '&3&bEssentialsLight &7&l> &aFed Player'
+SetSpawn:
+  spawnSet: '&3&bEssentialsLight &7&l> &aSpawn has been set!'
+Spawn:
+  onTeleport: '&3&bEssentialsLight &7&l> &aTeleporting you to the spawn!'
+  noSpawn": '&3&bEssentialsLight &7&l> &4There is no spawn!'
+Day:
+  onSet: '&3&bEssentialsLight &7&l> &aSet time to day!'
+Night:
+  onSet: '&3&bEssentialsLight &7&l> &aSet time to Night!'
+Broadcast:
+  broadcastPrefix: '&c[Broadcast] &f'
+Homes:
+  homeSet: '&3&bEssentialsLight &7&l> &aSet home location!'
+  onTeleport: '&3&bEssentialsLight &7&l> &aTeleporting you to your home!'
+  noHome: '&3&bEssentialsLight &7&l> &4You have no Home!'
+  688007e3-d2da-3abf-8ca7-4dad259a6c3d: world:-1355.0847744096848:104.88000458630583:-463.81833334492615:312.9651:45.223248
+  a2a3fd22-9611-39bb-b4c4-c3f64f0dbeef: world:-732.5072402132159:70.9281163224668:-197.58010497631136:243.20338:16.619614

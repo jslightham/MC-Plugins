@@ -1,0 +1,11 @@
+name: Invsee
+version: 1.0.0
+author: jslightham
+main: com.jslightham.invsee.Main
+description: A simple way to spy on other player's inventories 
+
+commands:
+  invsee:
+  enderchest:
+  ec:
+  

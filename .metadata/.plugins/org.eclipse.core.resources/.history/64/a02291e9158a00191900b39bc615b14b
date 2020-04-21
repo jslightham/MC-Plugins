@@ -1,5 +1,0 @@
-package com.jslightham.plugin1.commands;
-
-public class HelloCommand {
-
-}

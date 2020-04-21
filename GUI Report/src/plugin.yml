@@ -1,0 +1,8 @@
+name: GUIReport
+main: com.jslightham.guireport.Main
+description: A simple easy to use, player reporting system with a GUI
+version: 1.0.0
+author: jslightham
+
+commands:
+  test:

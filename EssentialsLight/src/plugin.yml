@@ -1,0 +1,22 @@
+name: EssentialsLight
+version: 1.0.0
+author: jslightham
+main: com.jslightham.essentialslight.Main
+description: A Light Version of the Essentials Plugin
+
+commands:
+  fly:
+  tphere:
+  gm:
+  heal:
+  feed:
+  setspawn:
+  spawn:
+  day:
+  night:
+  broadcast:
+  bc:
+  msg:
+  invsee:
+  sethome:
+  home:

@@ -1,0 +1,55 @@
+#Message Sent to Console When Command Cannot Be Run By Console
+errorMessage: '&3&bEssentialsLight &7&l> &4You are unable to execute this command!'
+
+#Message Sent to Player When Missing Permissions
+permissionMessage: '&3&bEssentialsLight &7&l> &4You do not have permission to run this command!'
+
+#Message Sent When Command is Missing Arguments
+missingArguments: '&3&bEssentialsLight &7&l> &4Command Missing Arguments!'
+
+#Message Sent When Player is Not Online
+playerOffline: '&3&bEssentialsLight &7&l> &4That player is offline!'
+
+#Spawn Location
+spawnLocation: ''
+
+#/fly
+FlyCommand:
+  onEnable: '&3&bEssentialsLight &7&l> &aFlying Enabled!'
+  onDisable: '&3&bEssentialsLight &7&l> &aFlying Disabled!'
+ 
+#/tphere
+TeleportCommand:
+  onTeleport: '&3&bEssentialsLight &7&l> &aTeleporting you'
+
+#/gm
+GameMode:
+  changedMode: '&3&bEssentialsLight &7&l> &aGameMode Changed'
+  invalidGameMode: '&3&bEssentialsLight &7&l> &4Invalid GameMode'
+#/heal
+Heal:
+  setHealth: '&3&bEssentialsLight &7&l> &aHealed Player'
+#/feed
+Feed:
+  setFood: '&3&bEssentialsLight &7&l> &aFed Player'
+#/setspawn
+SetSpawn:
+  spawnSet: '&3&bEssentialsLight &7&l> &aSpawn has been set!'
+#/spawn
+Spawn:
+  onTeleport: '&3&bEssentialsLight &7&l> &aTeleporting you to the spawn!'
+  noSpawn": '&3&bEssentialsLight &7&l> &4There is no spawn!'
+#/day
+Day:
+  onSet: '&3&bEssentialsLight &7&l> &aSet time to day!'
+#/night
+Night:
+  onSet: '&3&bEssentialsLight &7&l> &aSet time to Night!'
+#/broadcast
+Broadcast:
+  broadcastPrefix: '&c[Broadcast] &f'
+#/sethome, /home
+Homes:
+  homeSet: '&3&bEssentialsLight &7&l> &aSet home location!'
+  onTeleport: '&3&bEssentialsLight &7&l> &aTeleporting you to your home!'
+  noHome: '&3&bEssentialsLight &7&l> &4You have no Home!'

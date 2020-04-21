@@ -1,330 +1,1914 @@
-[16:44:25] [Server thread/INFO]: Starting minecraft server version 1.13.2
-[16:44:25] [Server thread/INFO]: Loading properties
-[16:44:25] [Server thread/INFO]: Default game type: SURVIVAL
-[16:44:26] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1a3504a-dfa7583 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
-[16:44:26] [Server thread/INFO]: Debug logging is disabled
-[16:44:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:44:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:44:26] [Server thread/INFO]: Generating keypair
-[16:44:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:44:26] [Server thread/INFO]: Using default channel type
-[16:44:28] [User Authenticator #1/INFO]: UUID of player hodgepodgez is a43331bd-9697-40ac-9ec4-ebcab7e00bbe
-[16:44:30] [Server thread/INFO]: [Plugin1] Loading Plugin1 v1.0
-[16:44:30] [Server thread/INFO]: Preparing level "world"
-[16:44:30] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[16:44:31] [Server thread/INFO]: Loaded 524 recipes
-[16:44:32] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:44:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:44:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:44:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:44:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:44:32] [Server thread/INFO]: View Distance: 10
-[16:44:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:44:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:44:32] [Server thread/INFO]: Mob Spawn Range: 6
-[16:44:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:44:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:44:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:44:32] [Server thread/INFO]: Random Lighting Updates: false
-[16:44:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:44:32] [Server thread/INFO]: Max TNT Explosions: 100
-[16:44:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:44:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:44:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:44:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:44:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:44:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:44:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:44:32] [Server thread/INFO]: View Distance: 10
-[16:44:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:44:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:44:32] [Server thread/INFO]: Mob Spawn Range: 6
-[16:44:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:44:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:44:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:44:32] [Server thread/INFO]: Random Lighting Updates: false
-[16:44:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:44:32] [Server thread/INFO]: Max TNT Explosions: 100
-[16:44:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:44:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:44:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:44:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:44:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:44:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:44:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:44:32] [Server thread/INFO]: View Distance: 10
-[16:44:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:44:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:44:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:44:32] [Server thread/INFO]: Mob Spawn Range: 6
-[16:44:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:44:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:44:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:44:32] [Server thread/INFO]: Random Lighting Updates: false
-[16:44:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:44:32] [Server thread/INFO]: Max TNT Explosions: 100
-[16:44:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:44:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:44:32] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -2533164192937728613)
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 4%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 8%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 12%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 16%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 20%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 24%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 28%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 32%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 36%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 40%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 44%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 48%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 52%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 56%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 60%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 64%
-[16:44:33] [Server thread/INFO]: Preparing spawn area: 68%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 72%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 76%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 80%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 84%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 88%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 92%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 96%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 100%
-[16:44:34] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: -2533164192937728613)
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 4%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 8%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 12%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 16%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 20%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 24%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 28%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 32%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 36%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 40%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 44%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 48%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 52%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 56%
-[16:44:34] [Server thread/INFO]: Preparing spawn area: 60%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 64%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 68%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 72%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 76%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 80%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 84%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 88%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 92%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 96%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 100%
-[16:44:35] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -2533164192937728613)
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 4%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 8%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 12%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 16%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 20%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 24%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 28%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 32%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 36%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 40%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 44%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 48%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 52%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 56%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 60%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 64%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 68%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 72%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 76%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 80%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 84%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 88%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 92%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 96%
-[16:44:35] [Server thread/INFO]: Preparing spawn area: 100%
-[16:44:35] [Server thread/INFO]: Time elapsed: 2686 ms
-[16:44:35] [Server thread/INFO]: [Plugin1] Enabling Plugin1 v1.0
-[16:44:35] [Server thread/INFO]: 2
-[16:44:35] [Server thread/ERROR]: Error occurred while enabling Plugin1 v1.0 (Is it up to date?)
-java.lang.NullPointerException: null
-	at com.jslightham.plugin1.Main.onEnable(Main.java:21) ~[?:?]
+[13:29:10] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[13:29:10] [Server thread/INFO]: Loading properties
+[13:29:10] [Server thread/INFO]: Default game type: SURVIVAL
+[13:29:11] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1a3504a-dfa7583 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[13:29:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:29:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:29:11] [Server thread/INFO]: Debug logging is disabled
+[13:29:11] [Server thread/INFO]: Generating keypair
+[13:29:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:29:11] [Server thread/INFO]: Using default channel type
+[13:29:14] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:29:14] [Server thread/INFO]: [GUIReport] Loading GUIReport v1.0.0
+[13:29:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:29:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:29:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:29:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:29:14] [Server thread/INFO]: Preparing level "world"
+[13:29:14] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:29:15] [Server thread/INFO]: Loaded 524 recipes
+[13:29:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:29:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:29:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:29:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:29:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:29:17] [Server thread/INFO]: View Distance: 10
+[13:29:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:29:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:29:17] [Server thread/INFO]: Mob Spawn Range: 6
+[13:29:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:29:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:29:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:29:17] [Server thread/INFO]: Random Lighting Updates: false
+[13:29:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:29:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:29:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:29:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:29:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:29:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:29:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:29:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:29:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:29:17] [Server thread/INFO]: View Distance: 10
+[13:29:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:29:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:29:17] [Server thread/INFO]: Mob Spawn Range: 6
+[13:29:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:29:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:29:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:29:17] [Server thread/INFO]: Random Lighting Updates: false
+[13:29:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:29:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:29:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:29:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:29:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:29:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:29:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:29:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:29:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:29:17] [Server thread/INFO]: View Distance: 10
+[13:29:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:29:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:29:17] [Server thread/INFO]: Mob Spawn Range: 6
+[13:29:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:29:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:29:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:29:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:29:17] [Server thread/INFO]: Random Lighting Updates: false
+[13:29:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:29:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:29:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:29:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:29:17] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -2533164192937728613)
+[13:29:17] [Server thread/INFO]: Preparing spawn area: 4%
+[13:29:17] [Server thread/INFO]: Preparing spawn area: 8%
+[13:29:17] [Server thread/INFO]: Preparing spawn area: 12%
+[13:29:17] [Server thread/INFO]: Preparing spawn area: 16%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 20%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 24%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 28%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 32%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 36%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 40%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 44%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 48%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 52%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 56%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 60%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 64%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 68%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 72%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 76%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 80%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 84%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 88%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 92%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 96%
+[13:29:18] [Server thread/INFO]: Preparing spawn area: 100%
+[13:29:18] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: -2533164192937728613)
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 4%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 8%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 12%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 16%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 20%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 24%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 28%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 32%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 36%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 40%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 44%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 48%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 52%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 56%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 60%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 64%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 68%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 72%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 76%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 80%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 84%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 88%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 92%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 96%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 100%
+[13:29:19] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -2533164192937728613)
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 4%
+[13:29:19] [Server thread/INFO]: Preparing spawn area: 8%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 12%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 16%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 20%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 24%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 28%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 32%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 36%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 40%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 44%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 48%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 52%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 56%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 60%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 64%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 68%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 72%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 76%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 80%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 84%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 88%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 92%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 96%
+[13:29:20] [Server thread/INFO]: Preparing spawn area: 100%
+[13:29:20] [Server thread/INFO]: Time elapsed: 2943 ms
+[13:29:20] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[13:29:20] [Server thread/INFO]: [GUIReport] Enabling GUIReport v1.0.0
+[13:29:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:29:20] [Server thread/INFO]: Done (5.883s)! For help, type "help"
+[13:30:21] [User Authenticator #1/INFO]: UUID of player hodgepodgez is a2a3fd22-9611-39bb-b4c4-c3f64f0dbeef
+[13:30:22] [Server thread/INFO]: hodgepodgez[/127.0.0.1:63968] logged in with entity id 431 at ([world]-744.3937613230795, 67.0, -208.09883025637816)
+[13:30:25] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:30:25] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'test' in plugin GUIReport v1.0.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:48) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:704) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1621) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1461) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalArgumentException: Material cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:71) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:59) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:47) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at com.jslightham.guireport.utils.Utils.createItem(Utils.java:21) ~[?:?]
+	at com.jslightham.guireport.ui.TestUI.GUI(TestUI.java:24) ~[?:?]
+	at com.jslightham.guireport.commands.TestCommand.onCommand(TestCommand.java:31) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:34:59] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:34:59] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'test' in plugin GUIReport v1.0.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:48) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:704) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1621) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1461) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalArgumentException: Material cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:71) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:59) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:47) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at com.jslightham.guireport.utils.Utils.createItem(Utils.java:21) ~[?:?]
+	at com.jslightham.guireport.ui.TestUI.GUI(TestUI.java:24) ~[?:?]
+	at com.jslightham.guireport.commands.TestCommand.onCommand(TestCommand.java:31) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:35:39] [Server thread/INFO]: hodgepodgez issued server command: /pl
+[13:40:11] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:40:11] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:40:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:40:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:40:11] [Server thread/INFO]: Debug logging is disabled
+[13:40:11] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:40:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:40:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:40:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:40:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:40:11] [Server thread/INFO]: View Distance: 10
+[13:40:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:40:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:40:11] [Server thread/INFO]: Mob Spawn Range: 6
+[13:40:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:40:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:40:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:40:11] [Server thread/INFO]: Random Lighting Updates: false
+[13:40:11] [Server thread/INFO]: Max TNT Explosions: 100
+[13:40:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:40:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:40:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:40:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:40:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:40:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:40:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:40:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:40:11] [Server thread/INFO]: View Distance: 10
+[13:40:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:40:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:40:11] [Server thread/INFO]: Mob Spawn Range: 6
+[13:40:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:40:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:40:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:40:11] [Server thread/INFO]: Random Lighting Updates: false
+[13:40:11] [Server thread/INFO]: Max TNT Explosions: 100
+[13:40:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:40:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:40:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:40:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:40:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:40:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:40:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:40:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:40:11] [Server thread/INFO]: View Distance: 10
+[13:40:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:40:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:40:11] [Server thread/INFO]: Mob Spawn Range: 6
+[13:40:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:40:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:40:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:40:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:40:11] [Server thread/INFO]: Random Lighting Updates: false
+[13:40:11] [Server thread/INFO]: Max TNT Explosions: 100
+[13:40:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:40:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:40:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:40:11] [Server thread/INFO]: [GUIReport] Disabling GUIReport v1.0.0
+[13:40:11] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[13:40:11] [Server thread/INFO]: Loaded 524 recipes
+[13:40:11] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:40:12] [Server thread/INFO]: Loaded 524 recipes
+[13:40:13] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:40:13] [Server thread/INFO]: [GUIReport] Loading GUIReport v1.0.0
+[13:40:13] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[13:40:13] [Server thread/INFO]: [GUIReport] Enabling GUIReport v1.0.0
+[13:40:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:40:13] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[13:40:26] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:40:29] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:40:33] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:40:40] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:40:45] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:40:45] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:40:45] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:41:20] [Server thread/INFO]: hodgepodgez issued server command: /reload
+[13:41:20] [Server thread/INFO]: hodgepodgez: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:41:20] [Server thread/INFO]: hodgepodgez: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:41:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:41:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:41:20] [Server thread/INFO]: Debug logging is disabled
+[13:41:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:41:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:41:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:41:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:41:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:41:20] [Server thread/INFO]: View Distance: 10
+[13:41:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:41:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:41:20] [Server thread/INFO]: Mob Spawn Range: 6
+[13:41:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:41:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:41:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:41:20] [Server thread/INFO]: Random Lighting Updates: false
+[13:41:20] [Server thread/INFO]: Max TNT Explosions: 100
+[13:41:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:41:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:41:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:41:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:41:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:41:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:41:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:41:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:41:20] [Server thread/INFO]: View Distance: 10
+[13:41:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:41:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:41:20] [Server thread/INFO]: Mob Spawn Range: 6
+[13:41:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:41:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:41:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:41:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:41:20] [Server thread/INFO]: Random Lighting Updates: false
+[13:41:20] [Server thread/INFO]: Max TNT Explosions: 100
+[13:41:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:41:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:41:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:41:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:41:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:41:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:41:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:41:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:41:21] [Server thread/INFO]: View Distance: 10
+[13:41:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:41:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:41:21] [Server thread/INFO]: Mob Spawn Range: 6
+[13:41:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:41:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:41:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:41:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:41:21] [Server thread/INFO]: Random Lighting Updates: false
+[13:41:21] [Server thread/INFO]: Max TNT Explosions: 100
+[13:41:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:41:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:41:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:41:21] [Server thread/INFO]: [GUIReport] Disabling GUIReport v1.0.0
+[13:41:21] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[13:41:21] [Server thread/INFO]: Loaded 524 recipes
+[13:41:21] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:41:22] [Server thread/INFO]: Loaded 524 recipes
+[13:41:22] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:41:22] [Server thread/INFO]: [GUIReport] Loading GUIReport v1.0.0
+[13:41:22] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[13:41:22] [Server thread/INFO]: [GUIReport] Enabling GUIReport v1.0.0
+[13:41:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:41:23] [Server thread/INFO]: hodgepodgez: [0;32;1mReload complete.[m
+[13:41:25] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:41:25] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'test' in plugin GUIReport v1.0.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:48) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:704) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1621) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1461) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalArgumentException: Material cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:71) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:59) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:47) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at com.jslightham.guireport.utils.Utils.createItem(Utils.java:21) ~[?:?]
+	at com.jslightham.guireport.ui.TestUI.GUI(TestUI.java:24) ~[?:?]
+	at com.jslightham.guireport.commands.TestCommand.onCommand(TestCommand.java:31) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:42:58] [Server thread/INFO]: hodgepodgez issued server command: /reload
+[13:42:58] [Server thread/INFO]: hodgepodgez: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:42:58] [Server thread/INFO]: hodgepodgez: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:42:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:42:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:42:58] [Server thread/INFO]: Debug logging is disabled
+[13:42:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:42:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:42:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:42:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:42:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:42:58] [Server thread/INFO]: View Distance: 10
+[13:42:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:42:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:42:58] [Server thread/INFO]: Mob Spawn Range: 6
+[13:42:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:42:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:42:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:42:58] [Server thread/INFO]: Random Lighting Updates: false
+[13:42:58] [Server thread/INFO]: Max TNT Explosions: 100
+[13:42:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:42:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:42:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:42:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:42:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:42:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:42:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:42:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:42:58] [Server thread/INFO]: View Distance: 10
+[13:42:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:42:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:42:58] [Server thread/INFO]: Mob Spawn Range: 6
+[13:42:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:42:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:42:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:42:58] [Server thread/INFO]: Random Lighting Updates: false
+[13:42:58] [Server thread/INFO]: Max TNT Explosions: 100
+[13:42:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:42:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:42:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:42:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:42:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:42:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:42:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:42:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:42:58] [Server thread/INFO]: View Distance: 10
+[13:42:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:42:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:42:58] [Server thread/INFO]: Mob Spawn Range: 6
+[13:42:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:42:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:42:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:42:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:42:58] [Server thread/INFO]: Random Lighting Updates: false
+[13:42:58] [Server thread/INFO]: Max TNT Explosions: 100
+[13:42:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:42:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:42:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:42:58] [Server thread/INFO]: [GUIReport] Disabling GUIReport v1.0.0
+[13:42:58] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[13:42:59] [Server thread/INFO]: Loaded 524 recipes
+[13:42:59] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:43:00] [Server thread/INFO]: Loaded 524 recipes
+[13:43:00] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:43:00] [Server thread/INFO]: [GUIReport] Loading GUIReport v1.0.0
+[13:43:00] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[13:43:00] [Server thread/INFO]: [GUIReport] Enabling GUIReport v1.0.0
+[13:43:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:43:00] [Server thread/INFO]: hodgepodgez: [0;32;1mReload complete.[m
+[13:43:03] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:43:03] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'test' in plugin GUIReport v1.0.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:48) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:704) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1621) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1461) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalArgumentException: Material cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:71) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:59) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:47) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at com.jslightham.guireport.utils.Utils.createItem(Utils.java:21) ~[?:?]
+	at com.jslightham.guireport.ui.TestUI.GUI(TestUI.java:24) ~[?:?]
+	at com.jslightham.guireport.commands.TestCommand.onCommand(TestCommand.java:31) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:43:22] [Server thread/INFO]: hodgepodgez issued server command: /reload
+[13:43:22] [Server thread/INFO]: hodgepodgez: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:43:22] [Server thread/INFO]: hodgepodgez: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:43:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:43:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:43:22] [Server thread/INFO]: Debug logging is disabled
+[13:43:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:43:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:43:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:43:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:43:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:43:22] [Server thread/INFO]: View Distance: 10
+[13:43:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:43:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:43:22] [Server thread/INFO]: Mob Spawn Range: 6
+[13:43:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:43:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:43:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:43:22] [Server thread/INFO]: Random Lighting Updates: false
+[13:43:22] [Server thread/INFO]: Max TNT Explosions: 100
+[13:43:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:43:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:43:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:43:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:43:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:43:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:43:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:43:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:43:22] [Server thread/INFO]: View Distance: 10
+[13:43:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:43:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:43:22] [Server thread/INFO]: Mob Spawn Range: 6
+[13:43:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:43:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:43:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:43:22] [Server thread/INFO]: Random Lighting Updates: false
+[13:43:22] [Server thread/INFO]: Max TNT Explosions: 100
+[13:43:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:43:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:43:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:43:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:43:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:43:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:43:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:43:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:43:22] [Server thread/INFO]: View Distance: 10
+[13:43:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:43:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:43:22] [Server thread/INFO]: Mob Spawn Range: 6
+[13:43:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:43:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:43:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:43:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:43:22] [Server thread/INFO]: Random Lighting Updates: false
+[13:43:22] [Server thread/INFO]: Max TNT Explosions: 100
+[13:43:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:43:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:43:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:43:22] [Server thread/INFO]: [GUIReport] Disabling GUIReport v1.0.0
+[13:43:22] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[13:43:22] [Server thread/INFO]: Loaded 524 recipes
+[13:43:22] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:43:23] [Server thread/INFO]: Loaded 524 recipes
+[13:43:23] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:43:23] [Server thread/INFO]: [GUIReport] Loading GUIReport v1.0.0
+[13:43:23] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[13:43:23] [Server thread/INFO]: [GUIReport] Enabling GUIReport v1.0.0
+[13:43:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:43:23] [Server thread/INFO]: hodgepodgez: [0;32;1mReload complete.[m
+[13:43:23] [Server thread/WARN]: hodgepodgez moved too quickly! -3.5499347758558315,1.1767592750642422,10.763125251688905
+[13:43:25] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:43:29] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:43:29] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:43:29] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:43:29] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:43:29] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:43:29] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:43:30] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:44:27] [Server thread/INFO]: hodgepodgez issued server command: /reload
+[13:44:27] [Server thread/INFO]: hodgepodgez: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:44:27] [Server thread/INFO]: hodgepodgez: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:44:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:44:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:44:27] [Server thread/INFO]: Debug logging is disabled
+[13:44:27] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:44:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:44:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:44:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:44:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:44:27] [Server thread/INFO]: View Distance: 10
+[13:44:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:44:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:44:27] [Server thread/INFO]: Mob Spawn Range: 6
+[13:44:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:44:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:44:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:44:27] [Server thread/INFO]: Random Lighting Updates: false
+[13:44:27] [Server thread/INFO]: Max TNT Explosions: 100
+[13:44:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:44:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:44:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:44:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:44:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:44:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:44:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:44:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:44:27] [Server thread/INFO]: View Distance: 10
+[13:44:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:44:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:44:27] [Server thread/INFO]: Mob Spawn Range: 6
+[13:44:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:44:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:44:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:44:27] [Server thread/INFO]: Random Lighting Updates: false
+[13:44:27] [Server thread/INFO]: Max TNT Explosions: 100
+[13:44:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:44:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:44:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:44:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:44:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:44:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:44:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:44:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:44:27] [Server thread/INFO]: View Distance: 10
+[13:44:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:44:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:44:27] [Server thread/INFO]: Mob Spawn Range: 6
+[13:44:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:44:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:44:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:44:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:44:27] [Server thread/INFO]: Random Lighting Updates: false
+[13:44:27] [Server thread/INFO]: Max TNT Explosions: 100
+[13:44:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:44:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:44:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:44:27] [Server thread/INFO]: [GUIReport] Disabling GUIReport v1.0.0
+[13:44:27] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[13:44:27] [Server thread/INFO]: Loaded 524 recipes
+[13:44:27] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:44:28] [Server thread/INFO]: Loaded 524 recipes
+[13:44:29] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:44:29] [Server thread/INFO]: [GUIReport] Loading GUIReport v1.0.0
+[13:44:29] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[13:44:29] [Server thread/INFO]: [GUIReport] Enabling GUIReport v1.0.0
+[13:44:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:44:29] [Server thread/INFO]: hodgepodgez: [0;32;1mReload complete.[m
+[13:44:38] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:44:38] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'test' in plugin GUIReport v1.0.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:48) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:704) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1621) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1461) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.IllegalArgumentException: Material cannot be null
+	at org.apache.commons.lang.Validate.notNull(Validate.java:192) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:71) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:59) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.inventory.ItemStack.<init>(ItemStack.java:47) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at com.jslightham.guireport.utils.Utils.createItem(Utils.java:21) ~[?:?]
+	at com.jslightham.guireport.ui.TestUI.GUI(TestUI.java:24) ~[?:?]
+	at com.jslightham.guireport.commands.TestCommand.onCommand(TestCommand.java:31) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:45:59] [Server thread/INFO]: hodgepodgez issued server command: /reload
+[13:45:59] [Server thread/INFO]: hodgepodgez: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:45:59] [Server thread/INFO]: hodgepodgez: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:45:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:45:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:45:59] [Server thread/INFO]: Debug logging is disabled
+[13:45:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:45:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:45:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:45:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:45:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:45:59] [Server thread/INFO]: View Distance: 10
+[13:45:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:45:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:45:59] [Server thread/INFO]: Mob Spawn Range: 6
+[13:45:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:45:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:45:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:45:59] [Server thread/INFO]: Random Lighting Updates: false
+[13:45:59] [Server thread/INFO]: Max TNT Explosions: 100
+[13:45:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:45:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:45:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:45:59] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:45:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:45:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:45:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:45:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:45:59] [Server thread/INFO]: View Distance: 10
+[13:45:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:45:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:45:59] [Server thread/INFO]: Mob Spawn Range: 6
+[13:45:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:45:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:45:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:45:59] [Server thread/INFO]: Random Lighting Updates: false
+[13:45:59] [Server thread/INFO]: Max TNT Explosions: 100
+[13:45:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:45:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:45:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:45:59] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:45:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:45:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:45:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:45:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:45:59] [Server thread/INFO]: View Distance: 10
+[13:45:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:45:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:45:59] [Server thread/INFO]: Mob Spawn Range: 6
+[13:45:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:45:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:45:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:45:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[13:45:59] [Server thread/INFO]: Random Lighting Updates: false
+[13:45:59] [Server thread/INFO]: Max TNT Explosions: 100
+[13:45:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:45:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:45:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:45:59] [Server thread/INFO]: [GUIReport] Disabling GUIReport v1.0.0
+[13:45:59] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[13:45:59] [Server thread/INFO]: Loaded 524 recipes
+[13:45:59] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:46:00] [Server thread/INFO]: Loaded 524 recipes
+[13:46:01] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:46:01] [Server thread/INFO]: [GUIReport] Loading GUIReport v1.0.0
+[13:46:01] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[13:46:01] [Server thread/INFO]: [GUIReport] Enabling GUIReport v1.0.0
+[13:46:01] [Server thread/ERROR]: Fatal error trying to convert GUIReport v1.0.0:com/jslightham/guireport/utils/Utils.class
+org.bukkit.plugin.AuthorNagException: No legacy enum constant for ACACIA_BOAT. Did you forget to define api-version: 1.13 in your plugin.yml?
+	at org.bukkit.craftbukkit.v1_13_R2.util.Commodore$1$1.visitFieldInsn(Commodore.java:154) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2210) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1283) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:688) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:400) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.util.Commodore.convert(Commodore.java:130) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:238) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:109) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.java.JavaPluginLoader.getClassByName(JavaPluginLoader.java:200) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:93) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:82) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at com.jslightham.guireport.ui.TestUI.initialize(TestUI.java:17) ~[?:?]
+	at com.jslightham.guireport.Main.onEnable(Main.java:16) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:347) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:436) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:350) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:580) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:542) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:420) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:294) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:698) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
-[16:44:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:44:35] [Server thread/INFO]: Done (5.112s)! For help, type "help"
-[16:44:36] [Server thread/INFO]: hodgepodgez[/127.0.0.1:57133] logged in with entity id 313 at ([world]-5.5, 71.0, 88.5)
-[16:44:43] [Server thread/INFO]: hodgepodgez issued server command: /pl
-[16:45:05] [Server thread/INFO]: hodgepodgez issued server command: /test
-[16:45:11] [Server thread/INFO]: hodgepodgez issued server command: /sethealth
-[16:45:18] [Server thread/INFO]: hodgepodgez issued server command: /heal
-[16:45:20] [Server thread/INFO]: hodgepodgez issued server command: /heal
-[16:45:22] [Server thread/INFO]: hodgepodgez issued server command: /heal
-[16:46:10] [Server thread/INFO]: hodgepodgez issued server command: /reload
-[16:46:20] [Server thread/INFO]: Made hodgepodgez a server operator
-[16:46:24] [Server thread/INFO]: hodgepodgez issued server command: /reload
-[16:46:24] [Server thread/INFO]: hodgepodgez: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[16:46:24] [Server thread/INFO]: hodgepodgez: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[16:46:24] [Server thread/INFO]: Debug logging is disabled
-[16:46:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:46:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:46:24] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:46:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:46:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:46:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:46:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:46:24] [Server thread/INFO]: View Distance: 10
-[16:46:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:46:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:46:24] [Server thread/INFO]: Mob Spawn Range: 6
-[16:46:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:46:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:46:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:46:24] [Server thread/INFO]: Random Lighting Updates: false
-[16:46:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:46:24] [Server thread/INFO]: Max TNT Explosions: 100
-[16:46:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:46:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:46:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:46:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:46:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:46:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:46:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:46:24] [Server thread/INFO]: View Distance: 10
-[16:46:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:46:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:46:24] [Server thread/INFO]: Mob Spawn Range: 6
-[16:46:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:46:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:46:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:46:24] [Server thread/INFO]: Random Lighting Updates: false
-[16:46:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:46:24] [Server thread/INFO]: Max TNT Explosions: 100
-[16:46:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:46:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:46:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:46:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:46:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:46:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:46:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:46:24] [Server thread/INFO]: View Distance: 10
-[16:46:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[16:46:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:46:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:46:24] [Server thread/INFO]: Mob Spawn Range: 6
-[16:46:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:46:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:46:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:46:24] [Server thread/INFO]: Random Lighting Updates: false
-[16:46:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:46:24] [Server thread/INFO]: Max TNT Explosions: 100
-[16:46:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:46:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:46:24] [Server thread/INFO]: [Plugin1] Disabling Plugin1 v1.0
-[16:46:24] [Server thread/INFO]: Loaded 524 recipes
-[16:46:24] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[16:46:25] [Server thread/INFO]: Loaded 524 recipes
-[16:46:26] [Server thread/INFO]: [Plugin1] Loading Plugin1 v1.0
-[16:46:26] [Server thread/INFO]: [Plugin1] Enabling Plugin1 v1.0
-[16:46:26] [Server thread/INFO]: 2
-[16:46:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:46:26] [Server thread/INFO]: hodgepodgez: [0;32;1mReload complete.[m
-[16:46:28] [Server thread/INFO]: hodgepodgez issued server command: /pl
-[16:46:30] [Server thread/INFO]: hodgepodgez issued server command: /heal
-[16:46:33] [Server thread/INFO]: hodgepodgez issued server command: /heal 10
-[16:46:33] [Server thread/INFO]: Your health is now: 10
-[16:46:36] [Server thread/INFO]: hodgepodgez issued server command: /heal 1000
-[16:46:40] [Server thread/INFO]: hodgepodgez issued server command: /heal 20
-[16:46:40] [Server thread/INFO]: Your health is now: 20
-[16:46:42] [Server thread/INFO]: hodgepodgez issued server command: /heal 10
-[16:46:42] [Server thread/INFO]: Your health is now: 10
-[16:46:45] [Server thread/INFO]: hodgepodgez issued server command: /heal 20
-[16:46:45] [Server thread/INFO]: Your health is now: 20
-[16:46:59] [Server thread/INFO]: hodgepodgez issued server command: /heal hodgepodgez
-[17:01:14] [Server thread/INFO]: hodgepodgez lost connection: Disconnected
-[17:01:14] [Server thread/INFO]: hodgepodgez left the game
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:347) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:410) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:436) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:350) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.reload(CraftServer.java:809) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.Bukkit.reload(Bukkit.java:604) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:28) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:704) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1621) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1461) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[13:46:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:46:01] [Server thread/INFO]: hodgepodgez: [0;32;1mReload complete.[m
+[13:46:02] [Server thread/INFO]: hodgepodgez issued server command: /testf
+[13:46:04] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:46:06] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:06] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:06] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:06] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:06] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:06] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:07] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:08] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:08] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:08] [Server thread/ERROR]: Could not pass event InventoryClickEvent to GUIReport v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:66) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:507) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:492) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:2108) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:33) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PacketPlayInWindowClick.a(SourceFile:10) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:9) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:896) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:831) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:729) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.jslightham.guireport.ui.TestUI.clicked(TestUI.java:31) ~[?:?]
+	at com.jslightham.guireport.listeners.InventoryClickListener.onClick(InventoryClickListener.java:30) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:312) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	... 15 more
+[13:46:21] [Server thread/INFO]: hodgepodgez issued server command: /test
+[13:46:24] [Async Chat Thread - #0/INFO]: <hodgepodgez> z[m
+[13:46:27] [Server thread/INFO]: hodgepodgez issued server command: /nick
+[13:46:29] [Server thread/INFO]: hodgepodgez lost connection: Disconnected
+[13:46:29] [Server thread/INFO]: hodgepodgez left the game

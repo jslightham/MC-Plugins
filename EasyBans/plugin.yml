@@ -1,0 +1,16 @@
+name: EasyBans
+version: 1.0.0
+main: com.jslightham.easybans.Main
+description: A simple ban plugin, with a web dashboard.
+author: jslightham
+
+commands:
+  ban:
+    usage: /<command> <player> <message>
+    description: Ban a player.
+  unban:
+    usage: /<command> <player>
+    description: UnBan a player.
+  ebinfo:
+    usage: /<command> <player>
+    description: Check a player's punishment status.

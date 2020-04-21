@@ -1,0 +1,14 @@
+#Message Sent to Console When Command Cannot Be Run By Console
+errorMessage: '&3&bEasyBans &7&l> &4You are unable to execute this command!'
+
+#Message Sent to Player When Missing Permissions
+permissionMessage: '&3&bEasyBans &7&l> &4You do not have permission to run this command!'
+
+#Message Sent When Command is Missing Arguments
+missingArguments: '&3&bEasyBans &7&l> &4Command Missing Arguments!'
+
+#Ban success message
+banSuccess: '&3&bEasyBans &7&l> &aYou successfully banned %player% for %reason%!'
+
+#UnBan success message
+unbanSuccess: '&3&bEasyBans &7&l> &aYou successfully unbanned %player%!'
