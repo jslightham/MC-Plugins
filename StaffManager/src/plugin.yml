@@ -1,0 +1,17 @@
+name: StaffManager
+version: 1.0.0
+author: jslightham
+main: com.jslightham.staffmanager.Main
+description: A plugin to manage staff members.
+
+commands:
+  addstaff: 
+  staff:
+  removestaff:
+  togglechat:
+  day:
+  fly:
+  heal:
+  invsee:
+  msg:
+  night:

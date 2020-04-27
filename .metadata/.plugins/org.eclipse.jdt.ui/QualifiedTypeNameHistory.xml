@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jslightham.plugin1.Main"/>
-    <fullyQualifiedTypeName name="com.jslightham.plugin1.commands.HelloCommand"/>
-    <fullyQualifiedTypeName name="org.bukkit.command.ConsoleCommandSender"/>
-    <fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
-    <fullyQualifiedTypeName name="com.jslightham.essentialslight.commands.FlyCommand"/>
-    <fullyQualifiedTypeName name="com.jslightham.essentialslight.commands.TeleportCommand"/>
-    <fullyQualifiedTypeName name="org.bukkit.GameMode"/>
-    <fullyQualifiedTypeName name="com.jslightham.essentialslight.commands.GameMode"/>
-    <fullyQualifiedTypeName name="com.jslightham.essentialslight.commands.HealCommand"/>
     <fullyQualifiedTypeName name="com.jslightham.essentialslight.commands.FeedCommand"/>
     <fullyQualifiedTypeName name="org.bukkit.Location"/>
     <fullyQualifiedTypeName name="org.bukkit.World"/>
@@ -27,8 +18,6 @@
     <fullyQualifiedTypeName name="com.jslightham.invsee.utils.Utils"/>
     <fullyQualifiedTypeName name="com.jslightham.invsee.commands.InvseeCommand"/>
     <fullyQualifiedTypeName name="com.jslightham.invsee.commands.EnderchestCommand"/>
-    <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
-    <fullyQualifiedTypeName name="org.bukkit.command.Command"/>
     <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerLoginEvent"/>
     <fullyQualifiedTypeName name="com.jslightham.easybans.utils.Utils"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -40,10 +29,8 @@
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.text.ParseException"/>
-    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
     <fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
     <fullyQualifiedTypeName name="net.minecraft.server.v1_13_R2.ItemStack"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.bukkit.Material"/>
     <fullyQualifiedTypeName name="org.bukkit.inventory.meta.ItemMeta"/>
     <fullyQualifiedTypeName name="org.bukkit.inventory.Inventory"/>
@@ -55,9 +42,22 @@
     <fullyQualifiedTypeName name="org.bukkit.event.inventory.InventoryClickEvent"/>
     <fullyQualifiedTypeName name="com.jslightham.guireport.listeners.InventoryClickListener"/>
     <fullyQualifiedTypeName name="com.jslightham.guireport.Main"/>
-    <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
-    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
     <fullyQualifiedTypeName name="com.jslightham.guireport.ui.TestUI"/>
     <fullyQualifiedTypeName name="com.jslightham.guireport.commands.TestCommand"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.jslightham.simpleTPA.utils.TPAreq"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="jdk.internal.net.http.common.Utils"/>
+    <fullyQualifiedTypeName name="com.jslightham.staffmanager.commands.AddStaff"/>
+    <fullyQualifiedTypeName name="com.jslightham.staffmanager.commands.StaffList"/>
+    <fullyQualifiedTypeName name="com.jslightham.staffmanager.utils.Utils"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+    <fullyQualifiedTypeName name="com.jslightham.staffmanager.Main"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.CommandSender"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.Command"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
+    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
 </qualifiedTypeNameHistroy>

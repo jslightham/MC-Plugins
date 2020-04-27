@@ -15,3 +15,12 @@ inventoryOpened: '&3&bInvsee &7&l> &aInventory Opened!'
 
 #Message Sent When Command is Missing Arguments
 missingArguments: '&3&bInvsee &7&l> &4Command Missing Arguments!'
+
+#Message Sent When Player is Frozen
+playerFrozen: '&3&bInvsee &7&l> &aPlayer Has Been Frozen!'
+
+#Message Sent When Player is UnFrozen
+playerUnfrozen: '&3&bInvsee &7&l> &aPlayer Has Been Unfrozen!'
+
+#Message Sent When Frozen Player Moves
+youFrozen: '&3&bInvsee &7&l> &4You are frozen!'

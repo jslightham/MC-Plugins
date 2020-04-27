@@ -59,6 +59,9 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\Server\plugins\Staff Manager.jar"/>
+			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\Staff Manager.jar"/>
+			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\GUI Report.jar"/>
 			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\MC-Plugins\bukkit\Server\plugins\GUI Report.jar"/>
 			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\MC-Plugins\bukkit\Server\plugins\EasyBans.jar"/>
 			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\MC-Plugins\bukkit\Server\plugins\Invsee.jar"/>
