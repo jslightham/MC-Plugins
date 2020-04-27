@@ -2,7 +2,7 @@
 	define("key", KEY); // TODO: Make key customizable. 
 	
 	function get_mysql(){
-		$mysql = new MySQLi("remotemysql.com", "wptYz7NcqF", "62WcmjpDNu", "wptYz7NcqF");
+		$mysql = new MySQLi("", "", "", ""); // login details removed
 		
 		if($mysql->connect_error){
 			die($mysql->connect_error);
