@@ -1,0 +1,35 @@
+# Fire on tnt explode (true/false)
+tntFire: 'false'
+
+# Radius of tnt explosion (integer value)
+tntRadius: 4
+
+# Cancel TNT explosion events (true/false)
+tntCancelled: 'false'
+
+# Fire on creeper explode (true/false)
+creeperFire: 'false'
+
+# Radius of creeper explosion (integer value)
+creeperRadius: 4
+
+# Cancel creeper explosion events (true/false)
+creeperCancelled: 'false'
+
+# Fire on large fireball explode (true/false)
+fireballFire: 'false'
+
+# Radius of large fireball explosion (integer value)
+fireballRadius: 4
+
+# Cancel large fireball explosion events (true/false)
+fireballCancelled: 'false'
+
+# Fire on other explode (true/false)
+otherFire: 'false'
+
+# Radius of other explosion (integer value)
+otherRadius: 4
+
+# Cancel other explosion events (true/false)
+otherCancelled: 'false'

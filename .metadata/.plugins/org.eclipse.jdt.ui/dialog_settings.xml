@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="JavaSE-1.8" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\MC-Plugins\bukkit" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="RefactoringWizard.preview">
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
 		<item value="false" key="updateSimilarElements"/>
@@ -34,6 +39,8 @@
 		<item value="false" key="create_package_info_java"/>
 	</section>
 	<section name="quick_assist_proposal_size">
+		<item value="249" key="size.y"/>
+		<item value="355" key="size.x"/>
 	</section>
 	<section name="completion_proposal_size">
 		<item value="252" key="size.y"/>
@@ -59,6 +66,8 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\Server\plugins\Explosion Control.jar"/>
+			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\Server\plugins\Invsee.jar"/>
 			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\Server\plugins\Staff Manager.jar"/>
 			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\Staff Manager.jar"/>
 			<item value="C:\Users\jmsdesk\Documents\Minecraft Plugins\GUI Report.jar"/>

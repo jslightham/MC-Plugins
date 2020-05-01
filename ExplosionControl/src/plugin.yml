@@ -1,0 +1,7 @@
+name: ExplosionControl
+version: 1.0.0
+author: jslightham
+main: com.jslightham.explosioncontrol.Main
+description: A plugin to manage explosions.
+
+commands:
